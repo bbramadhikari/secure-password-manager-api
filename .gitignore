@@ -2,3 +2,16 @@
 venv/
 .env
 env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local database
+*.sqlite3
+
+# User uploads (face images)
+media/
+
+# Editor
+.vscode/
